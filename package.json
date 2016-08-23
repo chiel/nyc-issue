@@ -1,0 +1,26 @@
+{
+  "name": "nyc-issue",
+  "version": "1.0.0",
+  "ava": {
+    "babel": "inherit"
+  },
+  "babel": {
+    "presets": [
+      "es2015",
+      "stage-1"
+    ]
+  },
+  "scripts": {
+    "coverage": "nyc report --reporter=html",
+    "test": "nyc ava"
+  },
+  "devDependencies": {
+    "ava": "^0.16.0",
+    "babel-preset-es2015": "^6.13.2",
+    "babel-preset-stage-1": "^6.13.0",
+    "gulp": "^3.9.1",
+    "gulp-tasks-poki": "^0.3.2",
+    "gulp-util": "^3.0.7",
+    "nyc": "^8.1.0"
+  }
+}
